@@ -74,5 +74,17 @@
         android:layout_below="@+id/addButton"
         />
 
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/result"
+        android:layout_alignRight="@+id/result"
+        android:layout_below="@+id/result"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="58dp"
+        android:text="종료" />
+
 
 </RelativeLayout>
